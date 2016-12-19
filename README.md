@@ -1,2 +1,2 @@
-# jQuery-Mobile-
+# jQuery-Mobile
 jQuery Mobile Project
