@@ -1,0 +1,20 @@
+#blkA{
+	font-size: 1em;
+	background:aqua;
+	color:black; 
+	width:40%; 
+	text-align: center;
+	float: left;
+}
+#blkB {
+	width:50%; 
+	text-align: center;
+	float: right;
+}
+
+#CN, #path{
+	background: red;
+	color: white;
+	width: 75%;
+	margin-left: 5%;
+}

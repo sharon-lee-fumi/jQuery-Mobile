@@ -1,0 +1,25 @@
+{
+"student": [
+{
+	"sName" : "Sharon Lee",
+	"sLogin" : "lee",
+	"sNumber" : "991000000",
+	"img" : "sharon.jpg",
+	"sProgram" : "Software Development and Network Engineering"
+},
+{
+	"sName" : "Mathieu Schmied",
+	"sLogin" : "schmiedm",
+	"sNumber" : "991111111",
+	"img" : "mathieu.jpg",
+	"sProgram" : "Computer Programmer"
+},
+{
+	"sName" : "Michael Baulne",
+	"sLogin" : "baulnem",
+	"sNumber" : "991222222",
+	"img" : "michael.jpg",
+	"sProgram" : "Computer Programmer"
+}
+]
+}

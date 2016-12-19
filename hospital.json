@@ -1,0 +1,36 @@
+{
+	"hospital": {
+	"name": "North York General Hospital",
+	"city": "Toronto",
+	"url": "http://www.nygh.on.ca",
+	"phone": "(416) 756-6000",
+	"lat": 43.769550,
+	"long": -79.363206,
+	"department": [
+				{
+					"dName": "Mother and Baby Unit",
+					"description": "The unit features bright patient rooms with ensuite showers.  Each bed is equipped with its own television but TV rental rates apply. Learn more about TV and internet charges at NYGH.  Visitors can wait comfortably in the Patient/Family Lounge.",
+					"fact1": "Hours 9 a.m. to 4 p.m.",
+					"fact2": "Room 2S-210"			
+				},
+				{
+					"dName": "Child and Adolescent Mental Health",
+					"description": "North York General Hospital's Child and Adolescent Mental Health provides services to children, teenagers and their families who are experiencing mental health difficulties. ",
+					"fact1": "Tel: 416-632-8703",
+					"fact2": "555 Finch Avenue West, 5th floor"
+				},
+				{
+					"dName": "Cardio-Respiratory and Neurology Services",
+					"description": "A Holter monitor is a small recorder, about the size of the cell phone. You will wear it for one to two days. It records all your heart beats, and is used to look for abnormalities in your heart rhythm. This test is used for people who have symptoms like palpitations or dizziness that come and go. A regular EKG only lasts a few seconds and can miss these problems",
+					"fact1": "Hours: Monday to Friday 7 a.m. to 3 p.m",
+					"fact2": "For all Cardio-Respiratory Services call 416-756-6064"
+				},
+				{
+					"dName": "Computed Tomography (CT)",
+					"description": "A CT scan is an X-ray procedure that combines many X-ray images with the aid of a computer to generate cross-sectional views and, if needed, three-dimensional images of the internal organs and structures of the body.",
+					"fact1": "Monday to Friday 7:30 a.m. to 11 p.m.",
+					"fact2": "Patients with a history of allergy to iodine or X-ray dye should notify their physicians and radiology staff. Oral contrast may also be required for CT abdomen and CT pelvis examinations."
+				}
+			]
+	}
+}

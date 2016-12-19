@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vitaminsInfo last-updated="2016-10-03" page-url="https://medlineplus.gov/explanations/vitaminsexplanations.html" title="Vitamins">
+<expression-group reference="National Institutes of Health, Office of Dietary Supplements" reference-url="">
+  <expression>Antioxidants</expression>
+  <explanation>Antioxidants are substances that may prevent or delay some types of cell damage. Examples include beta-carotene, lutein, lycopene, selenium, and vitamins C and E. They are found in many foods, including fruits and vegetables. They are also available as dietary supplements. Most research has not shown antioxidant supplements to be helpful in preventing diseases.</explanation>
+  <picture>antioxidants.jpg</picture>
+</expression-group>
+
+<expression-group reference="National Institutes of Health, Office of Dietary Supplements" reference-url="http://ods.od.nih.gov/Health_Information/ODS_Frequently_Asked_Questions.aspx#RDAandDV">
+  <expression>Daily Value (DV)</expression>
+  <explanation>The Daily Value (DV) tells you what percentage of a nutrient one serving of that food or supplement provides compared to the recommended amount.</explanation>
+  <picture>dv.jpg</picture>
+</expression-group>
+
+<expression-group reference="National Institutes of Health, Office of Dietary Supplements" reference-url="http://ods.od.nih.gov/factsheets/DietarySupplements-HealthProfessional/">
+  <expression>Dietary Supplements</expression>
+  <explanation>A dietary supplement is a product you take to supplement your diet. It contains one or more dietary ingredients (including vitamins; minerals; herbs or other botanicals; amino acids; and other substances). Supplements do not have to go through the testing that drugs do for effectiveness and safety.</explanation>
+  <picture>dietarysupplements.jpg</picture>
+</expression-group>
+
+<expression-group reference="National Institute of Diabetes and Digestive and Kidney Diseases" reference-url="">
+  <expression>Fat-Soluble Vitamins</expression>
+  <explanation>Fat-soluble vitamins include vitamins A, D, E, and K. The body stores fat-soluble vitamins in the liver and fatty tissues.</explanation>
+  <picture>fatsoluble.jpg</picture>
+</expression-group>
+
+<expression-group reference="National Institutes of Health, Office of Dietary Supplements" reference-url="http://ods.od.nih.gov/factsheets/Folate-Consumer/">
+  <expression>Folate</expression>
+  <explanation>Folate is a B-vitamin that is naturally present in many foods. A form of folate called folic acid is used in dietary supplements and fortified foods. Our bodies need folate to make DNA and other genetic material. Folate is also needed for the body’s cells to divide. It is important for women to get enough folic acid before and during pregnancy. It can prevent major birth defects of the baby's brain or spine.</explanation>
+  <picture>folate.jpg</picture>
+</expression-group>
+
+<expression-group reference="National Institutes of Health, Office of Dietary Supplements" reference-url="http://ods.od.nih.gov/factsheets/MVMS-Consumer/">
+  <expression>Multivitamin/Mineral Supplements</expression>
+  <explanation>Multivitamin/mineral supplements contain a combination of vitamins and minerals. They sometimes have other ingredients, such as herbs. They are also called multis, multiples, or simply vitamins. Multis help people get the recommended amounts of vitamins and minerals when they cannot or do not get enough of these nutrients from food.</explanation>
+  <picture>multivitamin.jpg</picture>
+</expression-group>
+
+<expression-group reference="National Cancer Institute" reference-url="http://www.cancer.gov/dictionary?CdrID=556407">
+  <expression>Niacin</expression>
+  <explanation>Niacin is a nutrient in the vitamin B complex. The body needs it in small amounts to function and stay healthy. Niacin helps some enzymes work properly and helps the skin, nerves, and digestive tract stay healthy.</explanation>
+  <picture>niacin.jpg</picture>
+</expression-group>
+
+<expression-group reference="National Institutes of Health, Office of Dietary Supplements" reference-url="http://ods.od.nih.gov/Health_Information/ODS_Frequently_Asked_Questions.aspx#RDAandDV">
+  <expression>Recommended Dietary Allowance (RDA)</expression>
+  <explanation>Recommended Dietary Allowance (RDA) is the amount of a nutrient you should get each day. There are different RDAs based on age, gender, and whether a woman is pregnant or breastfeeding.</explanation>
+  <picture>rd.gif</picture>
+</expression-group>
+
+<expression-group reference="NIH MedlinePlus" reference-url="https://medlineplus.gov/vitamina.html">
+  <expression>Vitamin A</expression>
+  <explanation>Vitamin A plays a role in your vision, bone growth, reproduction, cell functions, and immune system. Vitamin A is an antioxidant. It can come from plant or animal sources. Plant sources include colorful fruits and vegetables. Animal sources include liver and whole milk. Vitamin A is also added to foods like cereals.</explanation>
+  <picture>vita.jpeg</picture>
+</expression-group>
+</vitaminsInfo>

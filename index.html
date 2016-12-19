@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!-- Sharon Lee -->
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Project - Sharon</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link rel="stylesheet" href="_css/jquery.mobile.css" />
+	<link href="_css/port.css" rel="stylesheet" media="screen and (orientation: portrait)" />
+	<link href="_css/land.css" rel="stylesheet" media="screen and (orientation: landscape)" />	
+	
+	<link rel="stylesheet" href="_css/mystyles.css" />
+	<link rel="stylesheet" href="_css/lee.css" />
+
+	<script src="_js/jquery.js"></script>
+	<script src="_js/jquery.mobile.js"></script>
+	<script src="_js/myscript.js"></script>
+	
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3&sensor=false&language=en"></script>
+	
+</head>
+<body>
+<!-- Home page -->
+<div data-role="page" id="home" data-theme="a">
+	<!-- header -->
+	<header data-role="header" id="homeheader">
+		<h1>Project</h1>
+	</header>
+
+	<!-- content area  -->
+	<section class="ui-content" role="main">
+		<div>
+			<div class="ui-grid-a">
+				<section class="ui-block-a">
+					<h3 id="hospital"></h3>	
+				</section>
+				
+				<section class="ui-block-b">
+					<section class="ui-content">
+					<a href="#map" class="ui-btn ui-icon-eye ui-btn-icon-left">Map</a>
+					<a href="#vitamins" class="ui-btn ui-icon-bullets ui-btn-icon-left">Vitamins</a>
+					</section>
+				</section>
+			</div>
+			<div>
+				<h3>Departments</h3>	
+				<ul id="dList" data-role="listview" data-inset="true">
+				</ul>
+			</div>
+		</div>	
+	</section>
+	
+	<!-- footer -->
+	<footer data-role="footer">
+		<nav data-role="navbar" id="student">
+			<ul id="individual">
+				<li li-id="0"><a href="#popups" class="ui-btn ui-icon-sharon ui-btn-icon-top" 
+							data-rel="dialog" data-transition="pop">Sharon Lee</a></li>
+				<li li-id="1"><a href="#popups" class="ui-btn ui-icon-mathieu ui-btn-icon-top" 
+							data-rel="dialog" data-transition="pop">Mathieu Schmied</a></li>
+				<li li-id="2"><a href="#popups" class="ui-btn ui-icon-michael ui-btn-icon-top" 
+							data-rel="dialog" data-transition="pop">Michael Baulne</a></li>		
+			</ul>
+      </nav>
+	</footer>
+
+</div>
+<!-- end of home page -->
+
+<!-- Start of #indD -->
+<div data-role="page" id="indD">
+	<!-- header -->
+	<header data-role="header" data-theme="a" id="homeheader">
+		<a href="#home" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all"></a>
+		<h1>Project</h1>
+	</header>
+	<section class="ui-content" role="main" id="d-data">
+	</section>
+	<!-- footer -->
+	<footer data-role="footer">
+		<nav data-role="navbar" id="student">
+			<ul id="individual">
+				<li li-id="0"><a href="#popups" class="ui-btn ui-icon-sharon ui-btn-icon-top" 
+							data-rel="dialog" data-transition="pop">Sharon Lee</a></li>
+				<li li-id="1"><a href="#popups" class="ui-btn ui-icon-mathieu ui-btn-icon-top" 
+							data-rel="dialog" data-transition="pop">Mathieu Schmied</a></li>
+				<li li-id="2"><a href="#popups" class="ui-btn ui-icon-michael ui-btn-icon-top" 
+							data-rel="dialog" data-transition="pop">Michael Baulne</a></li>		
+			</ul>
+      </nav>
+	</footer>
+</div>
+<!-- end of indD page -->
+
+<!-- Start of #vitamins -->
+<div data-role="page" id="vitamins">
+	<!-- header -->
+	<header data-role="header" data-theme="a" id="homeheader">
+		<a href="#home" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all"></a>
+		<h1>Project</h1>
+	</header>
+	<!-- listing vitamins -->
+	<section class="ui-content" role="main">
+		<p><b>Vitamins</b></p>
+		<ul id="vList" data-role="listview" data-inset="true" data-filter="true">
+		</ul>
+	</section>
+	<!-- footer -->
+	<footer data-role="footer">
+		<nav data-role="navbar" id="student">
+			<ul id="individual">
+				<li li-id="0"><a href="#popups" class="ui-btn ui-icon-sharon ui-btn-icon-top" 
+							data-rel="dialog" data-transition="pop">Sharon Lee</a></li>
+				<li li-id="1"><a href="#popups" class="ui-btn ui-icon-mathieu ui-btn-icon-top" 
+							data-rel="dialog" data-transition="pop">Mathieu Schmied</a></li>
+				<li li-id="2"><a href="#popups" class="ui-btn ui-icon-michael ui-btn-icon-top" 
+							data-rel="dialog" data-transition="pop">Michael Baulne</a></li>		
+			</ul>
+      </nav>
+	</footer>
+</div>
+<!-- end of vitamins page -->
+
+<!-- Start of #indV -->
+<div data-role="page" id="indV">
+	<!-- header -->
+	<header data-role="header" data-theme="a" id="homeheader">
+		<a href="#vitamins" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all"></a>
+		<h1>Project</h1>
+	</header>
+	<section class="ui-content" role="main">
+		<b><p id="indtitle"></p></b>
+		<div class="ui-grid-a">
+			<section class="ui-block-a" id="ind-data">
+			</section>
+			<section class="ui-block-b" style="text-align:center;" id="pic">
+			</section>
+		</div>
+		<i><p id="ref"></p></i>		
+	</section>
+	<!-- footer -->
+	<footer data-role="footer">
+		<nav data-role="navbar" id="student">
+			<ul id="individual">
+				<li li-id="0"><a href="#popups" class="ui-btn ui-icon-sharon ui-btn-icon-top" 
+							data-rel="dialog" data-transition="pop">Sharon Lee</a></li>
+				<li li-id="1"><a href="#popups" class="ui-btn ui-icon-mathieu ui-btn-icon-top" 
+							data-rel="dialog" data-transition="pop">Mathieu Schmied</a></li>
+				<li li-id="2"><a href="#popups" class="ui-btn ui-icon-michael ui-btn-icon-top" 
+							data-rel="dialog" data-transition="pop">Michael Baulne</a></li>		
+			</ul>
+      </nav>
+	</footer>
+</div>
+<!-- end of indV page -->
+
+<!-- Start of #map -->
+<div data-role="page" id="map">
+	<!-- header -->
+	<header data-role="header" data-theme="a" id="homeheader">
+		<a href="#home" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all"></a>
+		<h1>Project</h1>
+	</header>
+
+	<!-- map -->
+	<section class="ui-content" role="main">
+		<p style="text-align:center;"><b>Map</b></p>
+		<div id="map_canvas" style="height:300px; width:600px; display: block; margin: 0 auto;"></div>
+	</section>
+	<!-- footer -->
+	<footer data-role="footer">
+		<nav data-role="navbar" id="student">
+			<ul id="individual">
+				<li li-id="0"><a href="#popups" class="ui-btn ui-icon-sharon ui-btn-icon-top" 
+							data-rel="dialog" data-transition="pop">Sharon Lee</a></li>
+				<li li-id="1"><a href="#popups" class="ui-btn ui-icon-mathieu ui-btn-icon-top" 
+							data-rel="dialog" data-transition="pop">Mathieu Schmied</a></li>
+				<li li-id="2"><a href="#popups" class="ui-btn ui-icon-michael ui-btn-icon-top" 
+							data-rel="dialog" data-transition="pop">Michael Baulne</a></li>		
+			</ul>
+      </nav>
+	</footer>
+</div>
+<!-- end of map page -->
+
+<!-- Start of footer #popup -->
+<div data-role="page" id="popups">
+	<!-- /header -->
+	<header data-role="header" data-theme="a">
+		<h1 id="sName"></h1>
+	</header>
+	<div class="ui-content" role="main" data-theme="a">	
+		<section class="ui-grid-a" role="main">
+			<div class="ui-block-a" id="info">
+			</div>
+			<div class="ui-block-b" style="text-align:center;" id="spic">
+			</div>
+		</section>		
+	</div>
+</div>
+<!-- end of footer popup page -->
+
+
+</body>
+</html>

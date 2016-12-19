@@ -1,0 +1,23 @@
+#blkA {
+	font-size: 1em;
+	background:yellow;
+	color:black; 
+	width:100%; 
+	text-align: center;
+	clear: both;
+}
+
+#blkB {
+	width:100%;
+	text-align: center;
+	clear: both;
+}
+
+#CN, #path{
+	background: red;
+	color: white;
+	width: 75%;
+	margin-left: 5%;
+}
+
+

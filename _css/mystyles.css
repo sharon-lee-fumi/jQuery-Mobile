@@ -1,0 +1,44 @@
+
+.ui-icon-sheridan:after
+{
+	background-image: url("images/sheridan.png");
+	background-size: 22px 22px;
+}
+
+.ui-icon-canada:after
+{
+	background-image: url("images/canada.png");
+	background-size: 22px 22px;
+}
+
+section div#bookinfo
+{
+	padding-left:20px;
+}
+
+.ui-icon-mercury:after { background-image: url("images/mercury.png"); background-size: 22px 22px; }
+.ui-icon-venus:after { background-image: url("images/venus.png"); background-size: 22px 22px; }
+.ui-icon-earth:after { background-image: url("images/earth.png"); background-size: 22px 22px; }
+.ui-icon-mars:after { background-image: url("images/mars.png"); background-size: 22px 22px; }
+.ui-icon-jupiter:after { background-image: url("images/jupiter.png"); background-size: 22px 22px; }
+.ui-icon-saturn:after { background-image: url("images/saturn.png"); background-size: 22px 22px; }
+.ui-icon-uranus:after { background-image: url("images/uranus.png"); background-size: 22px 22px; }
+.ui-icon-neptune:after { background-image: url("images/neptune.png"); background-size: 22px 22px; }
+
+.ui-icon-sharon:after
+{
+	background-image: url("../_images/sharon.jpg");
+	background-size: 22px 22px;
+}
+
+.ui-icon-michael:after
+{
+	background-image: url("../_images/michael.jpg");
+	background-size: 22px 22px;
+}
+
+.ui-icon-mathieu:after
+{
+	background-image: url("../_images/mathieu.jpg");
+	background-size: 22px 22px;
+}
